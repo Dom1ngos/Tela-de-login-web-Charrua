@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPc.html</title>
+
+    <link rel="stylesheet" href="./assets/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/card.js"></script>
+    <script src="./assets/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('.btnEntrarParceiro').click(function(){
+                location.href = "usuariopc.html";
+            });
+
+        })
+    </script>
+
+</head>
+
+<body>
+
+
+    <div class="container p-0 m-0">
+        <div class="row p-0 m-0">
+
+            <div class="col s6" id="LoginPc">
+                <div class="col s12" id="TelaLogin">
+                    <img src="./assets/img/logo.png" class="col s4 offset-s1" id="LogoPc" />
+
+                    <div class="col s12 pl-130">
+                        <div class="input-field col s8 formLoginParceiro">
+                            <input type="text" id="LoginParceiro" class="validate">
+                            <label for="LoginParceiro" style="text-align: center;">Login</label>
+                        </div>
+
+                        <div class="input-field col s8 formLoginParceiro">
+                            <input type="password" id="SenhaParceiro" class="validate">
+                            <label for="SenhaParceiro" style="text-align: center;">Senha</label>
+                        </div>
+
+                        <div class="col s12 pl-117 pt-242">
+                            <div class="col s4 btn waves-effect waves-light btnEntrarParceiro"> Entrar</div>
+                            <div class="col s12">&nbsp;</div>
+                            <div class="col s12 black-text pl-20" style="font-size: 11px;">Recuperar senha?</div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col s6" id="RightPc">
+
+                <div class="col s12 white-text pl-150 pt-161">
+                    <h4 style="font-weight: bold; font-size: 36px;">Levando tecnologia <br> ao homem do campo</h4>
+                </div>
+
+                <div>
+                    <div class="col s12 white-text pl-150 pt-0" style="font-size: 11.8px;">
+                        <p> Promover a prática de uma agriculturasustentável e de vanguarda,<br>
+                            levar tecnologia ao homem do campo, desenvolver pessoas, comercializar <br>
+                            produtos de elevada qualidade e prestar o melhor serviço agronômico.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
